@@ -1,0 +1,5 @@
+allow mediacodec firmware_file:dir search;
+allow mediacodec mpctl_socket:dir search;
+
+# allow mediacodec to access media.msm8952hw
+allow mediacodec media_msm8956hw_prop:file r_file_perms;
